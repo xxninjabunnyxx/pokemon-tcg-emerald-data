@@ -1,0 +1,98 @@
+---
+id: ex9-11
+name: Swampert
+supertype: Pokémon
+subtypes:
+- Stage 2
+hp: '110'
+types:
+- Water
+evolvesFrom: Marshtomp
+abilities:
+- name: Water Cyclone
+  text: As often as you like during your turn (before your attack), you may move a
+    Water Energy attached to 1 of your Active Pokémon to 1 of your Benched Pokémon.
+    This power can't be used if Swampert is affected by a Special Condition.
+  type: Poké-Power
+attacks:
+- name: Spinning Tail
+  cost:
+  - Colorless
+  convertedEnergyCost: 1
+  damage: ''
+  text: Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and
+    Resistance for Benched Pokémon.)
+- name: Aqua Sonic
+  cost:
+  - Water
+  - Water
+  - Colorless
+  convertedEnergyCost: 3
+  damage: '60'
+  text: This attack's damage isn't affected by Resistance.
+weaknesses:
+- type: Grass
+  value: "×2"
+retreatCost:
+- Colorless
+- Colorless
+convertedRetreatCost: 2
+set:
+  id: ex9
+  name: Emerald
+  series: EX
+  printedTotal: 106
+  total: 107
+  legalities:
+    unlimited: Legal
+  ptcgoCode: EM
+  releaseDate: 2005/05/01
+  updatedAt: 2020/02/08 09:00:00
+  images:
+    symbol: https://images.pokemontcg.io/ex9/symbol.png
+    logo: https://images.pokemontcg.io/ex9/logo.png
+number: '11'
+artist: Atsuko Nishida
+rarity: Rare Holo
+nationalPokedexNumbers:
+- 260
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex9/11.png
+  large: https://images.pokemontcg.io/ex9/11_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex9-11
+  updatedAt: 2023/09/10
+  prices:
+    holofoil:
+      low: 9.0
+      mid: 13.99
+      high: 30.14
+      market: 22.91
+      directLow: 
+    reverseHolofoil:
+      low: 29.99
+      mid: 32.94
+      high: 49.99
+      market: 41.04
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex9-11
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 1.98
+    lowPrice: 0.05
+    trendPrice: 2.16
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 2.0
+    reverseHoloTrend: 16.62
+    lowPriceExPlus: 2.0
+    avg1: 0.85
+    avg7: 2.16
+    avg30: 2.81
+    reverseHoloAvg1: 14.99
+    reverseHoloAvg7: 19.19
+    reverseHoloAvg30: 8.07
